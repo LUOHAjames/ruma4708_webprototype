@@ -1,14 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Node Server</title>
-    <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🏀Basketball Training Tracker🏀</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap" rel="stylesheet">
 </head>
-<body>
-    
-    <script src="script.js"></script>
-</body>
+ <body>
+        <div>
+            <img class="copy" src="basketball-player copy.png" alt="image which is about player icon">
+        </div>
+        <div class="container">
+          <h1>Basketball Training App</h1>
+          <form id="trainingForm">
+            <label for="trainingType">Training Type:</label>
+            <select id="trainingType" name="trainingType">
+              <option value="threePoint">Three-Point Shot</option>
+              <option value="midRange">Mid-Range Shot</option>
+              <option value="freeThrow">Free Throw</option>
+              <option value="layup">Layup</option>
+            </select>
+            <label for="totalShots">Total Shots:</label>
+            <input type="number" id="totalShots" name="totalShots" required>
+            <label for="madeShots">Made Shots:</label>
+            <input type="number" id="madeShots" name="madeShots" required>
+            <label for="targetTime">Target Training Time (hours):</label>
+            <input type="number" id="targetTime" name="targetTime" required>
+            <label for="actualTime">Actual Training Time (hours):</label>
+            <input type="number" id="actualTime" name="actualTime" required>
+            <label for="remarks">Remarks:</label>
+            <textarea id="remarks" name="remarks"></textarea>
+            <button type="submit">Submit</button>
+          </form>
+          <div class="feedback">
+          <div id="feedback"></div>
+          <div id="history">
+            <h2>Training History</h2>
+            <ul id="trainingList"></ul>
+          <div id="imageContainer">More About This Activity
+          <div id="calorieCount"> Total Calorie: </div>  
+          </div>  
+          </div>
+        </div>
+    </div>
+        
+        <script src="script.js"></script>
+      </body>
 </html>

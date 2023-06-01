@@ -1,0 +1,177 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(pexels-king-siberia-2277978.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.copy{
+  margin-left:400px;
+  position:absolute;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-image: url(bg-video.mp4);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+p {
+  font-size: 16px;
+  margin: 0 0 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  background-color: #008CBA;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005b7a;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+/* Training Form Styles */
+
+.training-form {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.training-form h2 {
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.feedback {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  background-color: black;
+  color:white;
+}
+
+
+
+/* Training History Styles */
+
+.training-history {
+  margin-top: 30px;
+}
+
+.training-history h2 {
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.training-history li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Image Styles */
+
+.image-container {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* Calorie Count Styles */
+
+.calorie-count {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/*responsive design*/
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  button {
+    font-size: 14px;
+  }
+
+  input,
+  textarea,
+  select {
+    font-size: 14px;
+  }
+
+  .training-form {
+    padding: 10px;
+  }
+
+  .training-form h2 {
+    font-size: 18px;
+  }
+
+  .feedback {
+    font-size: 16px;
+  }
+
+  .training-history h2 {
+    font-size: 18px;
+  }
+
+  .training-history li {
+    font-size: 14px;
+  }
+
+  .image-container {
+    margin-top: 20px;
+  }
+
+  .calorie-count {
+    font-size: 16px;
+  }
+}
